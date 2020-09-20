@@ -95,7 +95,7 @@ h2{
     width: 500px;
     position: relative;
     margin: 0 auto;
-    margin-top: -80px;
+     margin-top: -80px; 
     z-index: 1;
     vertical-align:middle;
     display: inline-block;
@@ -370,8 +370,9 @@ h2{
     .jasImg{
         width: 400px;
     }
-}
+
 
 .bigContainer{
     margin-top: -20px;
+}
 }

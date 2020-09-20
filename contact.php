@@ -8,14 +8,14 @@
     <meta name="description" content= "<!--description of website-->"/>
     <meta name="keywords" content="jasmine, harris, portfolio, digital, designer, ux, ui, front-end, developer, graphic" />
     <title> I am Jasmine </title>
-    <link rel="stylesheet" type="text/css" href="../static/contact.css" />
+    <link rel="stylesheet" type="text/css" href="static/contact.css" />
 </head>
 <body>
 
     <h3 class = "sent"></h3>
     
     <a href="menu.html">
-        <img id = "button" src="../Assets/portButton.png">
+        <img id = "button" src="Assets/portButton.png">
     </a>
 
     <h1> <span class = "firstCon">Contact</span> Contact <span class = "thirdCon">Contact</span></h1>
