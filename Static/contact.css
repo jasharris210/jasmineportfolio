@@ -1,0 +1,92 @@
+body{
+    background-color: #151515;
+    background-size: 1450px 850px;
+    font-family:  Afronik, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+#button{
+    width: 50px;
+    position: absolute;
+    left: 60px;
+    z-index: 2;
+}
+
+#button:hover{
+    content: url(../Assets/hoverPortButton.png);
+}
+
+h1{
+    font-size: 75px;
+    font-family: Salsa BT, sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+h1 span{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+span.firstCon{
+    color: #F45743;
+}
+
+span.thirdCon{
+    color: #F49B43;
+}
+
+.fill{
+    font-size: 32px;
+}
+
+
+.form{
+    font-size: 30px;
+}
+
+input,textarea {
+        margin-top: 10px;
+		width: 50%;
+		border: 5px solid #FFFFFF;
+		border-radius: 5px;
+		resize: none;
+		padding: 0 5px;
+		box-sizing: border-box;
+		font-family: afronik, sans-serif;
+		font-size: 25px;
+        color: black;
+}
+
+.nameFill input{
+    margin-top: 20px;
+}
+
+textarea{
+    padding-bottom: 50px;
+    display: inline-block;
+}
+.messageFill * {
+    vertical-align: middle;
+}
+
+
+
+
+
+button{
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: Salsa BT, sans-serif;
+    color:#76D66A;
+    padding: 10px;  
+    border: 1px solid white; 
+}
+button:hover{
+    background: #76D66A;
+    color: #973EFF;
+    border-color: #76D66A;
+}

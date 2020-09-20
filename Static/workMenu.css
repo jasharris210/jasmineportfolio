@@ -1,0 +1,46 @@
+html{
+    background-color: #151515;
+    background-size: 100%;
+    font-family:  Salsa BT, sans-serif;
+    color: white;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    width: 100%;
+    min-height: 100%;
+   
+}
+
+.split {
+    height: 100vh;
+    width: 50%;  
+  }
+  
+
+ .work{
+    float:left;
+    background: #76D66A;
+    text-align: center;
+   
+}
+
+.work:hover{
+    background: #abfaaa;
+}
+.menu{
+    float: right;
+    background: #F45743;
+    text-align: center;
+}
+
+.menu:hover{
+    background: #fca79a;
+}
+h1{
+    margin-top: 50%;
+    font-size: 75px;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+} 

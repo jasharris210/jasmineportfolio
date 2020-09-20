@@ -1,0 +1,79 @@
+body{
+    background-color: #151515;
+    background-size: 1450px 850px;
+    font-family:  Afronik, sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+#button{
+    width: 50px;
+    position: relative;
+    left: 3%;
+    margin-top: 2%;
+    z-index: 2;
+}
+
+#button:hover{
+    content: url(../Assets/hoverPortButton.png);
+}
+
+h1{
+    margin-top: -6%;
+    font-size: 75px;
+    font-family: Salsa BT, sans-serif;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    z-index: 1;
+  
+}
+
+h1 span{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+span.firstCon{
+    color: #F49B43;
+}
+
+span.thirdCon{
+    color: #F4438E;
+}
+.BB{
+    position: relative;
+    width: 700px;
+}
+
+#bbGif{
+    width: 700px;
+}
+
+
+#overlayBB{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 700px;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #F4438E;
+}
+
+.BB:hover #overlayBB {
+    opacity: .9;
+}
+
+#textBB {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "jquery": "^3.5.1",
+    "smoothstate": "^0.7.2",
+    "swup": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasmine harris <jasmine.harris@gmail.com>",
+  "license": "ISC"
+}

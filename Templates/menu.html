@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jasmine Portfolio" />
+    <meta name="description" content= "<!--description of website-->"/>
+    <meta name="keywords" content="jasmine, harris, portfolio, digital, designer, ux, ui, front-end, developer, graphic" />
+    <title> I am Jasmine </title>
+    <link rel="stylesheet" type="text/css" href="../static/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../static/loading.css" />
+</head>
+
+<body>
+
+        <div class = "top">
+            <img class = "jasImg" src="../Assets/portfolioFace-3.gif">
+            <h1>What do you <br> want to see?</h1>
+        </div>  
+    
+       
+    
+        <div class = "options">
+            <div class = "workOption">
+                <div class = "workName">
+                    
+                    <h2><a href="work.html">Work</a></h2>
+                </div>
+            </div>
+    
+    
+            <div class = "aboutOption">
+                <div class = "aboutName">
+                    <h2><a href="aboutMe.html">About Me</a></h2>
+                </div>
+            </div>
+            <div class = "contactOption">
+                <div class = "contactName">
+                    <h2><a href="contact.php">Contact</a></h2>
+                </div> 
+            </div>
+
+        </div>
+
+            
+        </div>
+   
+    
+
+
+        
+        <script type="module">
+            import Swup from 'swup';
+            const swup = new Swup();
+        </script>
+  
+</body>
+
+
+
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../node_modules/smoothstate/src/jquery.smoothState.js"></script>
+<script>
+$(function(){
+    console.log("hello");
+    'use strict';
+    var options = {
+        prefetch: true,
+        cacheLength: 2,
+    onStart: {
+        duration: 300, // Duration of our animation
+        render: function ($container) {
+            console.log("hello");
+            // Add your CSS animation reversing class
+            $container.addClass('.loadTrans');
+    
+            // Restart your animation
+            smoothState.restartCSSAnimations();
+            console.log("hello");
+        }
+        },
+        onAfter: {
+        duration: 500, // Duration of our animation
+        render: function ($container) {
+            // Add your CSS animation reversing class
+            $container.addClass('.loadTrans');
+    
+            // Restart your animation
+            smoothState.restartCSSAnimations();
+        }
+        
+        
+    },
+}
+    var smoothState = $('#body').smoothState(options);
+    });
+
+</script>

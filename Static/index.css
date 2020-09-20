@@ -1,0 +1,108 @@
+body{
+    background-color: #151515;
+    background-size: 1450px 850px;
+}
+
+.clickMe{
+/*border: solid;
+border-color: red;*/
+position: relative;
+padding-top:20px;
+}
+
+#button{
+    width: 50px;
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+
+
+#button:hover{
+    content: url(../Assets/hoverPortButton.png);
+}
+#click{
+    width: 130px;
+    margin-left: 20px;
+}
+
+.iAm{
+    font-family: Salsa BT, sans-serif;
+    color: #F89839;
+    position: relative;
+    margin-top: 1%;
+    
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+.jasImg{
+    width: 600px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 8%;
+    vertical-align:top;
+    
+}
+
+.title{
+    display: inline-block;
+    margin-top:70px;
+    margin-left: 50px;
+    vertical-align:top;
+}
+
+
+h1{
+    font-size: 100px;
+    font-family: Salsa BT, sans-serif;
+}
+
+h2{
+    font-family: Afronik, sans-serif;
+    color: white;
+    margin-top: -50px;
+    font-size: 35px;
+}
+
+@keyframes slideInFromTop{
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .title {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1.8s ease-out 0s 1 slideInFromTop;
+  }
+
+  
+  @keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    16% {
+       opacity: 0;
+    }
+    84% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 1;
+    }
+}
+
+#click{
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+

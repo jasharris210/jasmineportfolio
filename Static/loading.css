@@ -1,0 +1,50 @@
+.load{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: left;
+    z-index:4;
+}
+
+.loadPic{
+    width: 100%;
+}
+
+.transition-wipe { 
+    transition: 1s ;
+    transform: scale(0);
+    transform-origin: left;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-wipe {
+    transform: scale(-100);
+    animation: ease-out;
+    opacity: 0;
+  }
+  
+
+/*.loadTrans{
+    animation: 1.8s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+  }
+
+  
+
+.fadeIn{
+    z-index: 10;
+}
+ 
