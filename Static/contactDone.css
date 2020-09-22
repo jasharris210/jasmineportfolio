@@ -27,8 +27,8 @@ h1{
    
 }
 
-.work:hover{
-    background: #abfaaa;
+.contact:hover{
+    background: #fad2a5;
 }
 .menu{
     float: right;
@@ -37,7 +37,7 @@ h1{
 }
 
 .menu:hover{
-    background: #fca79a;
+    background: #fcb8d1;
 }
 
 
