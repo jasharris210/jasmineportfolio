@@ -3,7 +3,7 @@
 
 //$message_sent=false;
 
- if (isset($_POST['submit']) && $_POST['email'] != '' && $_POST['name'] != '' && $_POST['message'] != ''){
+ if (($_POST['submit']) && $_POST['email'] != '' && $_POST['name'] != '' && $_POST['message'] != ''){
     
 //     if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
         

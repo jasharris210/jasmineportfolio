@@ -1,3 +1,6 @@
+@font-face { font-family: Salsa BT; src: url("../fonts/9300_SalsaBT_Regular.otf") } 
+@font-face { font-family: Afronik; src: url("../fonts/Afronik.otf") } 
+
 body{
     background-color: #151515;
     background-size: 1450px 850px;
