@@ -21,30 +21,29 @@
     <h1> <span class = "firstCon">Contact</span> Contact <span class = "thirdCon">Contact</span></h1>
 
     <h3 class = "fill">Fill out the Form Below</h3>
-    <!-- action = "contactDone.html" -->
+    <!--  -->
 
-    <form class="contact_form"   method="POST" data-netlify="true" netlify-honeypot = "bot-field"  name = "posting" enctype="text/plain">
-        <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact" />
+    <form class="contact_form"  action = "contactDone.html" method="POST" data-netlify="true" name = "posting" netflify>
+        <!-- <input type="hidden" name="form-name" value="contact" /> -->
 
         <p class = "nameFill" type="name">
             <label>Name: </label>
-            <input name = "name" id = "name" type = "text" placeholder="Write your name here.."></input>
+            <input name = "User_Name" id = "name" type = "text" placeholder="Write your name here.."></input>
         </p>
 
         <p class = "emailFill" type="email">
             <label>Email Address: </label>
-            <input name = "email" id = "email" type = "email" placeholder="How should I reach you..."></input>
+            <input name = "User_Email" id = "email" type = "email" placeholder="How should I reach you..."></input>
         </p>
         <p class = "subjectFill" type="subject">
             <label>Subject:</label>
-            <input name = "subject" id = "subject" type = "text" placeholder="Write your subject..."></input>
+            <input name = "User_Subject" id = "subject" type = "text" placeholder="Write your subject..."></input>
         </p>
 
         <p class = "messageFill" type="message">
             <label>Message: </label>
-            <textarea name = "message" type = "text" id = "message"  placeholder="What's your message..."></textarea>
+            <textarea name = "User_Message" type = "text" id = "message"  placeholder="What's your message..."></textarea>
         </p>
-        <button type="submit" value = "Send an Email"   name = "submit" >Send Message</button>
+        <button type="submit" value = "Send an Email"   name = "Submit" >Send Message</button>
     </form>
 </body>
