@@ -3,10 +3,8 @@
 
 body{
     background-color: #151515;
-    background-size: 1450px 850px;
     font-family:  Afronik, sans-serif;
     color: white;
-    overflow-x: hidden;
 }
 
 #button{
@@ -46,6 +44,7 @@ span.thirdCon{
 .BB{
     position: relative;
     width: 700px;
+    margin: 0 auto;
 }
 
 #bbGif{

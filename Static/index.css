@@ -33,7 +33,7 @@ padding-top:20px;
     font-family: Salsa BT, sans-serif;
     color: #F89839;
     position: relative;
-    margin-top: 1%;
+    margin-top: 10vh;
     
     
 }
@@ -44,22 +44,21 @@ a{
 
 .jasImg{
     width: 600px;
-    display: inline-block;
-    margin: 0;
-    margin-left: 8%;
-    vertical-align:top;
+    display: block;
+    margin: 0 auto;
+   
     
 }
 
 .title{
     display: inline-block;
-    margin-top:70px;
     margin-left: 50px;
     vertical-align:top;
 }
 
 
 h1{
+    margin-top: 0;
     font-size: 100px;
     font-family: Salsa BT, sans-serif;
 }
@@ -107,5 +106,22 @@ h2{
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 3s;
+}
+
+@media (min-width: 1024px){
+    .jasImg{
+        width: 100%;
+        max-width: 600px;
+        margin: 0;
+        justify-self: end;
+
+    }
+
+
+    .iAm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 }
 

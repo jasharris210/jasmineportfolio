@@ -1,13 +1,16 @@
 @font-face { font-family: Salsa BT; src: url("../fonts/9300_SalsaBT_Regular.otf") } 
 @font-face { font-family: Afronik; src: url("../fonts/Afronik.otf") } 
 
+html {
+    height: 100%;
+}
+
 body{
     background-color: #151515;
-    background-size: 1450px 850px;
     font-family:  Afronik, sans-serif;
     color: white;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: 100vh;
+    position:fixed;
 }
 
 #button{
@@ -52,21 +55,21 @@ span.thirdCon{
 
 
 .jasImg{
-    display: inline-block;
-    vertical-align:middle;
+    display: block;
     margin-left: 120px;
-    z-index: 0;
-    margin-top: -130px;
+    margin: auto;
+    margin-top: -50px;
 }
 
 .who{
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 28px;
-    margin-left: 100px;
+    display: block;
+    font-size: 35px;
+    margin: 0 auto;
     line-height: 35pt;
     margin-top: -80px;
+    width: 70%;
 }
+
 
 span.frontEnd{
     color: #F4438E;
@@ -84,23 +87,26 @@ h2{
     z-index: 1;
     display: inline-block;
     vertical-align:middle;
-    margin-left: 400px;
-    transform: rotate(-90deg);
-    position: relative;
-    left: 2%;
+    transform: rotate(-90deg) translateX(60%);;
+    
+
 
 }
 
-
+.con{
+   
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-left: 10%;
+}
 
 .bigContainer{
     height: 250px;
     width: 500px;
     position: relative;
     margin: 0 auto;
-     margin-top: -80px; 
+     /* margin-top: -80px;  */
     z-index: 1;
-    vertical-align:middle;
     display: inline-block;
 }
 .container1{
@@ -363,19 +369,67 @@ h2{
     opacity: 1;
 }
 
-@media (max-width: 1360px){
+@media (min-width: 700px){
+    .jasImg{
+        margin-top: -160px;
+    }
+    .who{
+        font-size: 28px;
+    }
+    .con{
+        margin-left: 15%;  
+    }
+}
+
+@media(min-width: 1050px){
     .iAm{
-        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        margin-top: 10%;
+        margin-left: -10%;
+    }
+    .jasImg{
+        width: 100%;
+        max-width: 600px;
+       
     }
     .who{
         font-size: 22px;
     }
-    .jasImg{
-        width: 400px;
+    .con{
+        margin-top: 5%;
+        margin-left: 20%;
     }
 
+}
 
-.bigContainer{
-    margin-top: -20px;
+@media(min-width:1300px){
+    .iAm{
+        margin-left: 8%;
+        grid-template-columns: repeat(2, 500px);
+        grid-template-rows:  200px;
+}
+
+.jasImg{
+    width: 70%;
+    max-width: 600px;
+   
+}
+.who{
+    font-size: 17px;
 }
 }
+
+@media(min-width:1400px){
+    .iAm{
+        margin-left: 15%;
+        /* grid-template-columns: repeat(2, 500px); */
+        /* grid-template-rows:  100px; */
+}
+
+.con{
+    margin-left: 25%;
+    margin-top:1%;
+}
+}
+

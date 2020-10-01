@@ -3,10 +3,10 @@
 
 body{
     background-color: #151515;
-    background-size: 1450px 850px;
     font-family: Salsa BT, sans-serif;
     color: white;
-    overflow-x: hidden;
+    position: absolute;
+    
 }
 
 #button{
@@ -59,7 +59,7 @@ h3{
     
     width: 800px;
     display: block;
-    margin-left:auto;
+    margin-left:40%;
     margin-right:auto;
     box-shadow: -20px 20px 0px  #F4438E;
 }
@@ -442,9 +442,6 @@ p{
   }
 
   @media (max-width: 1220px){
-      h1{
-          color: red;
-      }
       p{
           font-size: 21px;
       }
@@ -493,9 +490,6 @@ p{
   }
 
   @media (max-width: 1060px){
-    h1{
-        color: blue;
-    }
 
     .BBgif{
         width: 700px;
@@ -567,9 +561,6 @@ font-size: 21px;
     }
     .type{
         margin-top: 0px;
-    }
-    h1{
-        color: yellow;
     }
     p{
         font-size: 15px;
