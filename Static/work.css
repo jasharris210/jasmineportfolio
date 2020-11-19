@@ -3,7 +3,8 @@
 
 body{
     background-color: #151515;
-    font-family:  Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     color: white;
 }
 
@@ -70,7 +71,7 @@ span.thirdCon{
 
 #textBB {
     color: white;
-    font-size: 40px;
+    font-size: 33px;
     position: absolute;
     top: 40%;
     left: 50%;

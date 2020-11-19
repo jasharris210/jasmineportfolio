@@ -1,5 +1,6 @@
 @font-face { font-family: Salsa BT; src: url("../fonts/9300_SalsaBT_Regular.otf") } 
 @font-face { font-family: Afronik; src: url("../fonts/Afronik.otf") } 
+@font-face { font-family: Monsterrat; src: url("../fonts/Montserrat-Thin.ttf") }
 html{
     width: 100%;
     min-width: fit-content;
@@ -38,7 +39,8 @@ h1{
     margin-bottom: 70px;
 }
 h3{
-    font-family: Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
 }
 
 .wrapper{
@@ -46,7 +48,7 @@ h3{
    
     margin-top: -40px;
     height: 600px;
-    background: #76D66A;
+    background: #5cb351;
     position: relative;
 }
 
@@ -86,17 +88,20 @@ h3{
     animation: .8s ease-out 0s 1 slideInFromLeft;
 }
 
+span.highlight{
+    font-weight: bold;
+}
 .role{
     font-size: 25px;
     margin-top: 100px;
     margin-left: 100px;
-    background: #973EFF;
+    background: #8d3aeb;
     padding: 15px;
     width: 80%;
 }
 .lang{
     font-size: 25px;
-    background: #F4438E;
+    background: #d63a7b;
     padding: 15px;
     margin-left: 150px;
     width: 80%;
@@ -105,29 +110,37 @@ h3{
 
 .prob{
     margin-top: 100px;
-    background: #F45743;
-    padding: 8px;
+    background: #d64c3a;
+    padding: 12px;
     padding-left: 12px;
+    padding-bottom: 40px;
     box-shadow: -23px 23px 0px  #F49B43;
     width: 33%;
     height: 330px;
     margin-left: 160px;
     display: inline-block;
    /*vertical-align: top;*/
+
 }
 
 .theprob, .thesol{
-    font-size: 30px;
+    font-size: 33px;
+    margin-bottom: 0;
+
 }
 
 p{
-    font-family: Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     font-size: 24px;
+}
+span.probSpan{
+    font-weight: bold;
 }
 
 .sol{
     margin-top: 14 s0px;
-    background: #76D66A;
+    background: #4da541;
     padding: 8px;
     padding-left: 12px;
     box-shadow: -23px 23px 0px  #F49B43;
@@ -135,12 +148,15 @@ p{
     height: 330px;
     margin-left: 150px;
     display: inline-block;
-   /* vertical-align: top;*/
+    padding-bottom: 45px;
+}
+span.solSpan{
+    font-weight: bold;
 }
 
 
 .wireframe{
-    background: #973EFF;
+    background: #8d3aeb;
     position: relative;
     height: 670px;
     width: 88%;
@@ -150,14 +166,17 @@ p{
 
 .wire{
     font-size: 40px;
-    background: #F4438E;
+    background: #d63a7b;
     padding: 15px;
     margin-left: 120px;
     width: 80%;
     text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
 }
 .wireinfo{
-    font-family: Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     font-size: 21px;
     margin: auto 0;
     text-align: center;
@@ -249,7 +268,7 @@ p{
 
 #text_wire{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -266,12 +285,13 @@ p{
 
 .unique_title{
     font-size: 35px;
-    font-family: Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     margin-left: 5%;
 }
 
 .unique_box{
-    background: #F45743;
+    background: #d64c3a;
     width: 37%;
     margin-left: 5%;
     display: inline-block;
@@ -297,16 +317,16 @@ p{
 }
 
 .simplify{
-    background: #F49B43;
+    background: #d48333;
     
 }
 
 .illustrate{
-    background: #F4438E;
+    background: #d63a7b;
 }
 
 .gamify{
-    background: #76D66A;
+    background: #4da541;
 }
 
 .points{
@@ -319,30 +339,35 @@ p{
 
 
 .results{
-    background: #F49B43;
+    background: #d48333;
     position: relative;
     height: 700px;
     width: 88%;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .res{
     font-size: 40px;
-    background: #76D66A;
+    background: #4da541;
     padding: 15px;
     margin-left: 120px;
     width: 80%;
     text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
 }
 .resultsinfo{
-    font-family: Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     font-size: 21px;
     margin: auto 0;
     text-align: center;
 }
-
+span.resSpan{
+    font-weight: bold;
+}
 .resPhotos{
 
     margin-left: 200px;
@@ -447,7 +472,13 @@ p{
           font-size: 21px;
       }
 
+    .prob{
+        padding-bottom: 30px;
+    }
 
+    .sol{
+        padding-bottom: 35px;
+    }
 
     .wire{
           margin-left: 90px;
@@ -502,11 +533,14 @@ p{
     .sol{
         margin-left: 35%;
         margin-top: 80px;
+        padding-bottom: 45px;
 
     }
     .prob{
         margin-left: 35%;
+        padding-bottom: 40px;
     }
+    
     p{
         font-size: 19px;
     }

@@ -1,10 +1,12 @@
 @font-face { font-family: Salsa BT; src: url("../fonts/9300_SalsaBT_Regular.otf") } 
 @font-face { font-family: Afronik; src: url("../fonts/Afronik.otf") } 
+@font-face { font-family: Monsterrat; src: url("../fonts/Montserrat-Thin.ttf") }
 
 body{
     background-color: #151515;
     background-size: 1450px 850px;
-    font-family:  Afronik, sans-serif;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     color: white;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -42,6 +44,8 @@ span.thirdCon{
 }
 
 .fill{
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
     font-size: 32px;
 }
 
@@ -58,7 +62,8 @@ input,textarea {
 		resize: none;
 		padding: 0 5px;
 		box-sizing: border-box;
-		font-family: afronik, sans-serif;
+		font-family: Montserrat, sans-serif;
+        font-weight: 100;
 		font-size: 25px;
         color: black;
 }
